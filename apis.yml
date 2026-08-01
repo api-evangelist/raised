@@ -1,7 +1,14 @@
 aid: raised
 name: Raised
-description: Raised is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Raised (joinraised.com) is an AI-powered recruiting platform founded in 2022 and
+  backed by 500 Global. It delivers vetted candidates to venture-backed startups —
+  particularly in AI, deep tech, and Web3 — at a fraction of the cost and time of
+  traditional recruitment agencies, using proprietary AI to match candidates to
+  roles. The company is headquartered in Wilmington, Delaware, and operates as a
+  software-enabled alternative to traditional staffing firms. Raised publishes a
+  marketing website only; no public developer API, documentation, or developer
+  platform surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/raised/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://joinraised.com/logo_raised_small.png
 tags:
 - Company
+- Recruiting
+- Talent Acquisition
+- HR Tech
+- Hiring
+- Recruitment Automation
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://joinraised.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/raisednetworks
+- type: DomainSecurity
+  url: security/raised-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
